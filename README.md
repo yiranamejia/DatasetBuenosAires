@@ -5,8 +5,8 @@ Información sobre los viajes realizados por las personas.de la base personas. O
 
 DESCARGAR
 Campos del recurso
-Nombre	                       Tipo	        Descripción
-﻿id_hogar	                     string	    ﻿id_hogar
+Nombre	                      | Tipo	 |       Descripción
+﻿id_hogar	                    | string |    ﻿id_hogar
 id_persona	                   string	    id_persona
 id_viaje	                     string	    id_viaje
 VII_2_activida_en_el_origen	   string	    VII_2_activida_en_el_origen
