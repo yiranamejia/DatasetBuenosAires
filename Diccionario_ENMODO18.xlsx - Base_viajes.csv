@@ -1,0 +1,97 @@
+Campo,Descripción,Tipo,Valor,,Observaciones
+id_hogar,Código identificador del hogar,Numérica,,,Campo construido
+id_persona,Código identificador de la persona,Numérica,,,Campo construido
+id_viaje,Código identificador del viaje,Numérica,,,Campo construido
+VII_2_activida_en_el_origen,¿Cuál fue la actividad que realizo (…) donde se origino el viaje?,Numérica,1,Estaba en el hogar/Ir al Hogar,
+,,,2,Trabajo (lugar de),
+,,,3,Asunto laboral,
+,,,4,Estudios (lugar donde cursa),
+,,,5,Estudios (otros lugares),
+,,,6,Salud,
+,,,7,Compras,
+,,,8,Social,
+,,,9,Familia,
+,,,10,Deportes,
+,,,11,Recreación,
+,,,12,Personal,
+,,,13,Tramite personal,
+,,,14,Ir a buscar empleo,
+,,,15,Dejar/ buscar o acompañar a un miembro del hogar a centro educativo,
+,,,16,Dejar/ buscar o acompañar a un miembro del hogar a lugar distinto del centro educativo,
+,,,17,Dejar/ buscar o acompañar a un NO miembro del hogar,
+,,,22,Otro,
+VII_3_activida_en_el_destino,¿Cuál fue la actividad que realizo (…) en el lugar de destino del mismo?,Númerica,1,Estaba en el hogar/Ir al Hogar,
+,,,2,Trabajo (lugar de),
+,,,3,Asunto laboral,
+,,,4,Estudios (lugar donde cursa),
+,,,5,Estudios (otros lugares),
+,,,6,Salud,
+,,,7,Compras,
+,,,8,Social,
+,,,9,Familia,
+,,,10,Deportes,
+,,,11,Recreación,
+,,,12,Personal,
+,,,13,Tramite personal,
+,,,14,Ir a buscar empleo,
+,,,15,Dejar/ buscar o acompañar a un miembro del hogar a centro educativo,
+,,,16,Dejar/ buscar o acompañar a un miembro del hogar a lugar distinto del centro educativo,
+,,,17,Dejar/ buscar o acompañar a un NO miembro del hogar,
+,,,22,Otro,
+BH_NBH,Indica si el viaje esá o no basado en el hogar,Texto,BH,Viaje basado en el hogar,Campo construido
+,,,NBH,Viaje no basado en el hogar,
+motivo,"Indica el motivo del viaje. Corresponde a la actividad realizada en el destino del viaje, excepto cuando el destino es el hogar, en cuyo caso corresponde a la actividad en el origen.",Númerica,2,Trabajo (lugar de),Campo construido
+,,,3,Asunto laboral,
+,,,4,Estudios (lugar donde cursa),
+,,,5,Estudios (otros lugares),
+,,,6,Salud,
+,,,7,Compras,
+,,,8,Social,
+,,,9,Familia,
+,,,10,Deportes,
+,,,11,Recreación,
+,,,12,Personal,
+,,,13,Tramite personal,
+,,,14,Ir a buscar empleo,
+,,,15,Dejar/ buscar o acompañar a un miembro del hogar a centro educativo,
+,,,16,Dejar/ buscar o acompañar a un miembro del hogar a lugar distinto del centro educativo,
+,,,17,Dejar/ buscar o acompañar a un NO miembro del hogar,
+,,,22,Otro,
+VII_9_veces_por_semana_viaja,"¿Cuántas veces por semana realiza el mismo viaje (…) con el mismo origen y destino, mismo motivo y horario y en el mismo modo de transporte?",Númerica,,,
+,,,88,Si el viaje se realiza menos de una vez por semana ej: una vez cada 15 dias,
+VIII_35_tarifa_combinada,Solo para los viajes por motivo trabajo o estudio y con una frecuencia semanal > a 3 ¿Usted cambio su forma de viajar a partir de la implementación de la tarifa combinada?,Númerica,1,Si,
+,,,2,No,
+jur_origen,Indica en qué Jurisdicción inició el viaje,Númerica,2,CABA,Campo construido
+,,,6,Provincia de Buenos Aires,
+jur_destino,Indica en qué Jurisdicción finalizó el viaje,Númerica,2,CABA,Campo construido
+,,,6,Provincia de Buenos Aires,
+partido_origen_viaje,Indica en qué Partido/Comuna inició el viaje,Texto,,,Campo construido
+partido_destino_viaje,Indica en qué Partido/Comuna finalizó el viaje,Texto,,,Campo construido
+cod_partido_origen,Indica el código INDEC del Partido/Comuna donde inició el viaje,Númerica,,,Campo construido
+cod_partido_destino,Indica el código INDEC del Partido/Comuna donde finalizó el viaje,Númerica,,,Campo construido
+hora_inicio,Indica el horario en que inició el viaje,Númerica,,En formato decimal,Campo construido
+hora_final,Indica el horario en que finalizó el viaje,Númerica,,En formato decimal,Campo construido
+duracion_minutos,Indica la duración del viaje (en minutos),Númerica,,,Campo construido
+modo_des,Indica el tipo de viaje según un agrupamiento de los modos utilizados,Númerica,1,Una etapa en bicicleta,Campo construido 
+,,,2,Una etapa a pie,
+,,,3,Una etapa en taxi o remis,
+,,,4,"Una etapa en transporte público (colectivo, tren o subte/premetro)",
+,,,5,Una etapa en automovil particular o moto/ciclomotor (conductor o acompañante),
+,,,6,"Una etapa charter/combi, bus de la empresa o transporte escolar",
+,,,7,"Dos o más etapas combinando transporte público (colectivo, tren y/o subte/premetro) y otro modo",
+,,,8,"Dos o más etapas en transporte público (colectivo, tren y/o subte/premetro)",
+,,,9,"Otros modo o dos o más etapas combinando modos que excluyen el transporte público (colectivo, tren y/o subte/premetro)",
+radio_origen,Indica el código de radio censal que se corresponde con la georreferencia del origen del viaje,Númerica,,,Campo construido
+radio_destino,Indica el código de radio censal que se corresponde con la georreferencia del destino del viaje,Númerica,,,Campo construido
+cantidad_etapas,Indica la cantidad de etapas del viaje,Númerica,,,Campo construido
+tipo_viaje,Indica el ipo de viaje según las jurisdicciones de origen y destino,Texto,CABA,Viaje con origen y destino en CABA,Campo construido
+,,,PBA,Viaje con origen y destino en PBA,
+,,,Interjurisdiccional,Viaje con origen en una jurisdicción y destino en otra,
+menos_2_cuadras,Indica si corresponde a un viaje a pie con menos de dos cuadras caminadas (permite filtrar estos viajes para tener una equivalencia con otras ENMODO),Númerica,0,No,Campo construido
+,,,1,Si,
+,,,88,Sin determinar,
+Inluye_bici,Indica si el viaje tuvo al menos una etapa en bicicleta,Texto,si,,Campo construido
+,,,no,,
+viaja_rmba,Indica si el viaje se realizó dentro de RMBA para los partidos y comunas considerados en la muestra de la encuesta,Númerica,1,Si,Campo construido
+,,,2,No,
+distancia_viaje_km,distancia lineal entre entre las coordenadas de origen y destino,Númerica,,,Campo construido
